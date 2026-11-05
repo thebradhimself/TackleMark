@@ -1,0 +1,7 @@
+# Xcode build products and local user state
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.profraw
+.DS_Store

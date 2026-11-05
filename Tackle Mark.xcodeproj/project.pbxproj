@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* TackleMarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* TackleMarkApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* ContentView.swift */; };
+		A10000000000000000000003 /* MarkdownDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* MarkdownDocument.swift */; };
+		A10000000000000000000004 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* PreviewProvider.swift */; };
+		A10000000000000000000005 /* MarkdownDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* MarkdownDocument.swift */; };
+		A10000000000000000000006 /* Tackle Mark Quick Look Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* Tackle Mark Quick Look Extension.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A10000000000000000000007 /* MarkdownRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* MarkdownRenderer.swift */; };
+		A10000000000000000000008 /* MarkdownRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* MarkdownRenderer.swift */; };
+		A10000000000000000000201 /* MarkdownRendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000211 /* MarkdownRendererTests.swift */; };
+		A10000000000000000000202 /* MarkdownDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* MarkdownDocument.swift */; };
+		A10000000000000000000203 /* MarkdownRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* MarkdownRenderer.swift */; };
+		A10000000000000000000204 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10000000000000000000213 /* XCTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10000000000000000000021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10000000000000000000030 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10000000000000000000041;
+			remoteInfo = "Tackle Mark Quick Look Extension";
+		};
+		A10000000000000000000221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10000000000000000000030 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10000000000000000000040;
+			remoteInfo = "Tackle Mark";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A10000000000000000000051 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A10000000000000000000006 /* Tackle Mark Quick Look Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000011 /* TackleMarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TackleMarkApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A10000000000000000000013 /* MarkdownDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownDocument.swift; sourceTree = "<group>"; };
+		A10000000000000000000014 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		A10000000000000000000015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000017 /* Tackle Mark Quick Look Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tackle Mark Quick Look Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000018 /* Tackle Mark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tackle Mark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000019 /* MarkdownRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownRenderer.swift; sourceTree = "<group>"; };
+		A10000000000000000000211 /* MarkdownRendererTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownRendererTests.swift; sourceTree = "<group>"; };
+		A10000000000000000000212 /* Tackle Mark Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tackle Mark Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000213 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+		A10000000000000000000311 /* TackleMarkQuickLookExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TackleMarkQuickLookExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000204 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000071 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000072 /* Tackle Mark */,
+				A10000000000000000000073 /* Tackle Mark Shared */,
+				A10000000000000000000074 /* Tackle Mark Quick Look Extension */,
+				A10000000000000000000214 /* Tackle Mark Tests */,
+				A10000000000000000000075 /* Products */,
+				A10000000000000000000213 /* XCTest.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000072 /* Tackle Mark */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000076 /* App */,
+				A10000000000000000000077 /* Resources */,
+			);
+			path = "Tackle Mark";
+			sourceTree = "<group>";
+		};
+		A10000000000000000000073 /* Tackle Mark Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000013 /* MarkdownDocument.swift */,
+				A10000000000000000000019 /* MarkdownRenderer.swift */,
+			);
+			path = "Tackle Mark Shared";
+			sourceTree = "<group>";
+		};
+		A10000000000000000000074 /* Tackle Mark Quick Look Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000014 /* PreviewProvider.swift */,
+				A10000000000000000000016 /* Info.plist */,
+				A10000000000000000000311 /* TackleMarkQuickLookExtension.entitlements */,
+			);
+			path = "Tackle Mark Quick Look Extension";
+			sourceTree = "<group>";
+		};
+		A10000000000000000000075 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000018 /* Tackle Mark.app */,
+				A10000000000000000000017 /* Tackle Mark Quick Look Extension.appex */,
+				A10000000000000000000212 /* Tackle Mark Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000076 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000011 /* TackleMarkApp.swift */,
+				A10000000000000000000012 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000077 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000015 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000214 /* Tackle Mark Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000211 /* MarkdownRendererTests.swift */,
+			);
+			path = "Tackle Mark Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000040 /* Tackle Mark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000081 /* Build configuration list for PBXNativeTarget "Tackle Mark" */;
+			buildPhases = (
+				A10000000000000000000060 /* Sources */,
+				A10000000000000000000061 /* Frameworks */,
+				A10000000000000000000051 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10000000000000000000091 /* PBXTargetDependency */,
+			);
+			name = "Tackle Mark";
+			productName = "Tackle Mark";
+			productReference = A10000000000000000000018 /* Tackle Mark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10000000000000000000041 /* Tackle Mark Quick Look Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000082 /* Build configuration list for PBXNativeTarget "Tackle Mark Quick Look Extension" */;
+			buildPhases = (
+				A10000000000000000000063 /* Sources */,
+				A10000000000000000000062 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tackle Mark Quick Look Extension";
+			productName = "Tackle Mark Quick Look Extension";
+			productReference = A10000000000000000000017 /* Tackle Mark Quick Look Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A10000000000000000000240 /* Tackle Mark Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000280 /* Build configuration list for PBXNativeTarget "Tackle Mark Tests" */;
+			buildPhases = (
+				A10000000000000000000205 /* Sources */,
+				A10000000000000000000206 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10000000000000000000291 /* PBXTargetDependency */,
+			);
+			name = "Tackle Mark Tests";
+			productName = "Tackle Mark Tests";
+			productReference = A10000000000000000000212 /* Tackle Mark Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000030 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A10000000000000000000040 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A10000000000000000000041 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A10000000000000000000240 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000000000000000000080 /* Build configuration list for PBXProject "Tackle Mark" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000071;
+			productRefGroup = A10000000000000000000075 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000040 /* Tackle Mark */,
+				A10000000000000000000041 /* Tackle Mark Quick Look Extension */,
+				A10000000000000000000240 /* Tackle Mark Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* TackleMarkApp.swift in Sources */,
+				A10000000000000000000002 /* ContentView.swift in Sources */,
+				A10000000000000000000003 /* MarkdownDocument.swift in Sources */,
+				A10000000000000000000007 /* MarkdownRenderer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000004 /* PreviewProvider.swift in Sources */,
+				A10000000000000000000005 /* MarkdownDocument.swift in Sources */,
+				A10000000000000000000008 /* MarkdownRenderer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000201 /* MarkdownRendererTests.swift in Sources */,
+				A10000000000000000000202 /* MarkdownDocument.swift in Sources */,
+				A10000000000000000000203 /* MarkdownRenderer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10000000000000000000091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10000000000000000000041 /* Tackle Mark Quick Look Extension */;
+			targetProxy = A10000000000000000000021 /* PBXContainerItemProxy */;
+		};
+		A10000000000000000000291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10000000000000000000040 /* Tackle Mark */;
+			targetProxy = A10000000000000000000221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A10000000000000000000110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX8SJSD2BP;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Tackle Mark/Resources/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacklemark.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX8SJSD2BP;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Tackle Mark/Resources/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacklemark.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A10000000000000000000120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = "Tackle Mark Quick Look Extension/TackleMarkQuickLookExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX8SJSD2BP;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Tackle Mark Quick Look Extension/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacklemark.app.quicklook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = "Tackle Mark Quick Look Extension/TackleMarkQuickLookExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX8SJSD2BP;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Tackle Mark Quick Look Extension/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacklemark.app.quicklook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A10000000000000000000230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacklemark.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tackle Mark.app/Contents/MacOS/Tackle Mark";
+				TEST_TARGET_NAME = "Tackle Mark";
+			};
+			name = Debug;
+		};
+		A10000000000000000000231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacklemark.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tackle Mark.app/Contents/MacOS/Tackle Mark";
+				TEST_TARGET_NAME = "Tackle Mark";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000080 /* Build configuration list for PBXProject "Tackle Mark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000100 /* Debug */,
+				A10000000000000000000101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000081 /* Build configuration list for PBXNativeTarget "Tackle Mark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000110 /* Debug */,
+				A10000000000000000000111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000082 /* Build configuration list for PBXNativeTarget "Tackle Mark Quick Look Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000120 /* Debug */,
+				A10000000000000000000121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000280 /* Build configuration list for PBXNativeTarget "Tackle Mark Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000230 /* Debug */,
+				A10000000000000000000231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000030 /* Project object */;
+}
